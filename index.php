@@ -8,6 +8,8 @@
             <tr>
                 <h1 class="titlu">Dinosaurii lu'Lica</h1>
             </tr>
+            <tr></tr>
+            <tr></tr>
         </table>
     </body>
 </html>
