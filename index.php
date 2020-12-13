@@ -19,7 +19,7 @@
             </div>
 
             <div class="main">
-                <!-- Aicia nu faceti nimic va jucati cu restul ca asta e important si vine facut cu php --> 
+                <!-- Aicia nu faceti nimic va jucati cu restul ca asta e important si vine facut cu php (specificat special pt Ionut si Jeff hackerul. Futu-ti mortii ma-tii Jeff daca citesti)--> 
             </div>
             
             <div class="down">
