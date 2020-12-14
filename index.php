@@ -4,16 +4,30 @@
         <link rel="stylesheet" href="css/main.css" />
     </head>
     <body>
+        <img src="../primul/poze/Screenshot_62.png">
         <div class="container">
-            <div class="head">
-                <h1 class="titlu">Dinosaurii lu' Lica</h1>
-            </div>
             <div class="menu">
                 <table class="tabel_menu">
                     <tr>
                         <td class="about"><a href="#" class="text_menu">About</a></td>
                         <td class="home"><a href="#" class="text_menu">Home</a></td>
+                        <td class="logo" rowspan=2>*Inser imagine*</td>
                         <td class="shop"><a href="#" class="text_menu">Shop</a></td>
+                        <td class="FaQ"><a href="#" class = "text_menu">FaQ</a></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td class="logo_text"><a href = "#" class="logo_menu_text">titlu</a></td>
+                        <td></td>
+                        <td></td>
                     </tr>
                 </table>
             </div>
