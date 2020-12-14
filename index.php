@@ -2,9 +2,10 @@
     <head>
         <title>AntiLampa</title>
         <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/about.css" />
+        <link rel="stylesheet" href="css/home.css" />
     </head>
     <body>
-        <img src="../primul/poze/dinosaurii.jpg" class="dinozaur">
         <div class="container">
             <div class="menu">
                 <table class="tabel_menu">
