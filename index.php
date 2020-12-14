@@ -14,7 +14,7 @@
                         <td class="home"><a href="index.php?p=home" class="text_menu">Home</a></td>
                         <td rowspan=2><a href="http://localhost/primul/"><img src='poze/Screenshot_62.png' class="logo"/></a></td>
                         <td class="shop"><a href="index.php?p=shop" class="text_menu">Shop</a></td>
-                        <td class="FaQ"><a href="index.php?p=FAQ" class = "text_menu">FaQ</a></td>
+                        <td class="FaQ"><a href="index.php?p=FAQ" class = "text_menu">FAQ</a></td>
                     </tr>
                     <tr>
                         <td></td>
