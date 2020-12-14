@@ -7,7 +7,7 @@
         <h1>Sima Ionut Andrei</h1>
         <h2>Verb Developer and software Engineer</h2>
         <div class="imageionut">
-            <img src="../poze/dinozauri.jpg" alt="Photograph Of Ionut">
+            <img src="../poze/about-me-image.png" alt="Photograph Of Ionut">
         </div>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quos,
