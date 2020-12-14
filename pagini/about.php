@@ -2,9 +2,9 @@
     <h1>Our Team</h1>
     <span class="border"></span>
  <div class="ps">
-    <a href="#"><img src="../poze/Vulturu'.jpeg" alt=""></a>
-    <a href="#"><img src="../poze/IonutCap-de-prost.jpg" alt=""></a>
-    <a href="#"><img src="../poze/Razvan-pula-mea.jpg" alt=""></a>
+    <a href="#"><img src="poze/Vulturu'.jpeg" alt=""></a>
+    <a href="#"><img src="poze/IonutCap-de-prost.jpg" alt=""></a>
+    <a href="#"><img src="poze/Razvan-pula-mea.jpg" alt=""></a>
 
  </div>
 
