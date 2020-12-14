@@ -5,24 +5,32 @@ body, html, div, h1{
 
 .menu{
     width: 100%;
-    background-image: "../poze/Screenshot_62.png" ;
+    top: 0;
+    position: fixed;
+    display: block;
+    float: top;
 }
 
 .tabel_menu{
     margin-left: auto;
     margin-right: auto;
     border-spacing: 10px;
+    position: fixed;
+    top: 0;
+    z-index: -99;
+    
 }
 
 .text_menu:link, .text_menu:visited{
     font-size: x-large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
-    color:black;
+    color: black;
+    
 }
 
 .about{
-
+    
 }
 
 .about:hover, .about:hover .text_menu {
@@ -106,6 +114,7 @@ body, html, div, h1{
 }
 
 .FaQ{
+    
 }
 
 .FaQ:hover, .FaQ:hover .text_menu{
@@ -113,4 +122,9 @@ body, html, div, h1{
     font-size: x-large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
+}
+
+.dinozaur{
+    height: 100%;
+    width: 100%;
 }

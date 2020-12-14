@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="css/main.css" />
     </head>
     <body>
-        <img src="../primul/poze/Screenshot_62.png">
+        <img src="../primul/poze/dinozauri.jpg" class="dinozaur">
         <div class="container">
             <div class="menu">
                 <table class="tabel_menu">
