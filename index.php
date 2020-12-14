@@ -9,11 +9,11 @@
             <div class="menu">
                 <table class="tabel_menu">
                     <tr>
-                        <td class="about"><a href="#" class="text_menu">About</a></td>
-                        <td class="home"><a href="#" class="text_menu">Home</a></td>
+                        <td class="about"><a href="index.php?p=about" class="text_menu">About</a></td>
+                        <td class="home"><a href="index.php?p=home" class="text_menu">Home</a></td>
                         <td class="logo" rowspan=2>*Inser imagine*</td>
-                        <td class="shop"><a href="#" class="text_menu">Shop</a></td>
-                        <td class="FaQ"><a href="#" class = "text_menu">FaQ</a></td>
+                        <td class="shop"><a href="index.php?p=shop" class="text_menu">Shop</a></td>
+                        <td class="FaQ"><a href="index.php?p=FAQ" class = "text_menu">FaQ</a></td>
                     </tr>
                     <tr>
                         <td></td>
@@ -34,6 +34,28 @@
 
             <div class="main">
                 <!-- Aicia nu faceti nimic va jucati cu restul ca asta e important si vine facut cu php (specificat special pt Ionut si Jeff hackerul si Maria curva. Futu-ti mortii ma-tii Jeff daca citesti)--> 
+                <?php 
+                    if(isset($_GET['p']))
+                        switch ($_GET['p']){
+                            case 'home':
+                                require("pagini/home.php");
+                            break;
+
+                            case 'shop':
+                                require("pagini/shop.php");
+                            break;
+
+                            case 'about':
+                                require("pagini/about.php");
+                            break;
+
+                            case 'FAQ':
+                                require("pagini/FAQ.php");
+
+                        }
+                    else
+                        require("pagini/home.php");
+                ?>
             </div>
             
             <div class="down">
