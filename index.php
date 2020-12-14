@@ -11,7 +11,7 @@
                     <tr>
                         <td class="about"><a href="index.php?p=about" class="text_menu">About</a></td>
                         <td class="home"><a href="index.php?p=home" class="text_menu">Home</a></td>
-                        <td rowspan=2><a href="https://www.youtube.com/watch?v=tAGnKpE4NCI&ab_channel=Metallica"><img src='poze/Screenshot_62.png' class="logo"/></a></td>
+                        <td rowspan=2><a href="http://localhost/primul/"><img src='poze/Screenshot_62.png' class="logo"/></a></td>
                         <td class="shop"><a href="index.php?p=shop" class="text_menu">Shop</a></td>
                         <td class="FaQ"><a href="index.php?p=FAQ" class = "text_menu">FaQ</a></td>
                     </tr>
@@ -25,7 +25,7 @@
                     <tr>
                         <td></td>
                         <td></td>
-                        <td class="logo_text"><a href = "https://www.youtube.com/watch?v=tAGnKpE4NCI&ab_channel=Metallica" class="logo_menu_text">titlu</a></td>
+                        <td class="logo_text"><a href = "http://localhost/primul/" class="logo_menu_text">Dizonaurii lu Gica</a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -33,6 +33,7 @@
             </div>
 
             <div class="main">
+                
                 <!-- Aicia nu faceti nimic va jucati cu restul ca asta e important si vine facut cu php (specificat special pt Ionut si Jeff hackerul si Maria curva. Futu-ti mortii ma-tii Jeff daca citesti)--> 
                 <?php 
                     if(isset($_GET['p']))
