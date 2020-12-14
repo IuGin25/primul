@@ -4,14 +4,14 @@
         <link rel="stylesheet" href="css/main.css" />
     </head>
     <body>
-        <img src="../primul/poze/wp3492725.jpg" class="dinozaur">
+        <img src="../primul/poze/dinosaurii.jpg" class="dinozaur">
         <div class="container">
             <div class="menu">
                 <table class="tabel_menu">
                     <tr>
                         <td class="about"><a href="index.php?p=about" class="text_menu">About</a></td>
                         <td class="home"><a href="index.php?p=home" class="text_menu">Home</a></td>
-                        <td class="logo" rowspan=2>*Inser imagine*</td>
+                        <td rowspan=2><a href="https://www.youtube.com/watch?v=tAGnKpE4NCI&ab_channel=Metallica"><img src='poze/Screenshot_62.png' class="logo"/></a></td>
                         <td class="shop"><a href="index.php?p=shop" class="text_menu">Shop</a></td>
                         <td class="FaQ"><a href="index.php?p=FAQ" class = "text_menu">FaQ</a></td>
                     </tr>

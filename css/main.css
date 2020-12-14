@@ -16,10 +16,10 @@ body, html, div, h1{
 
 .tabel_menu{
     border-spacing: 10px;
-    position: fixed;
     top: 0;
     z-index: -99;
-    
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .text_menu:link, .text_menu:visited{
@@ -35,10 +35,11 @@ body, html, div, h1{
 }
 
 .about:hover, .about:hover .text_menu {
-    color: white;
+    color: cornflowerblue;
     font-size: x-large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .home{
@@ -46,10 +47,10 @@ body, html, div, h1{
 }
 
 .home:hover, .home:hover .text_menu {
-    color: white;
+    color: cornflowerblue;
     font-size: x-large;
-    font-family:Candara, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .shop{
@@ -57,10 +58,10 @@ body, html, div, h1{
 }
 
 .shop:hover, .shop:hover .text_menu{
-    color: white;
+    color: cornflowerblue;
     font-size: x-large;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .down{
@@ -101,18 +102,21 @@ body, html, div, h1{
 
 .logo_menu_text{
     text-align: center;
-
+    text-decoration: none;
+    color: white;
 }
 
 .logo_text{
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 0.3s;
 }
 
-.logo_text:hover, .logo_text:hover .text_menu{
-    color: white;
+.logo_text:hover, .logo_text:hover .logo_menu_text{
+    color: cornflowerblue;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .FaQ{
@@ -120,10 +124,11 @@ body, html, div, h1{
 }
 
 .FaQ:hover, .FaQ:hover .text_menu{
-    color: white;
+    color: cornflowerblue;
     font-size: x-large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .dinozaur{
@@ -132,5 +137,6 @@ body, html, div, h1{
 }
 
 .logo{
-    color: white;
+    height: 75px;
+    width: 125px;
 }
