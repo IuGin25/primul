@@ -1,15 +1,42 @@
-<div class="pagina_ionut">
-    <h1>Sima Ionut Andrei</h1>
-    <h2>Verb Developer and software Engineer</h2>
-        <div class="imageionut">
-        <img src="../poze/about-me-image.png" alt="Photograph Of Ionut">
-    </div>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quos,
-        rerum deleniti adipisci, fugiat excepturi asperiores iste, distinctio
-        quasi neque vitae sapiente aliquam atque unde facere corporis nobis! 
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. A, distinctio?
+<div class="team-section">
+    <h1>Our Team</h1>
+    <span class="border"></span>
+ <div class="ps">
+    <a href="#"><img src="../poze/Vulturu'.jpeg" alt=""></a>
+    <a href="#"><img src="../poze/IonutCap-de-prost.jpg" alt=""></a>
+    <a href="#"><img src="../poze/Razvan-pula-mea.jpg" alt=""></a>
+
+ </div>
+
+<div class="section" id="p1">
+    <span class="name">Bogdan Viorel</span>
+    <span class="border"></span>
+    <p> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ratione voluptates unde
+         quas pariatur labore earum tempora dolorum, sequi, culpa commodi at ducimus mollitia
+          quis asperiores laboriosam enim eius rerum.
     </p>
-    <a href="#" class="btn">Get In Touch</a>
 </div>
 
+<div class="section" id="p2">
+    <span class="name">Ionut Pulaski</span>
+    <span class="border"></span>
+    <p> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ratione voluptates unde
+         quas pariatur labore earum tempora dolorum, sequi, culpa commodi at ducimus mollitia
+          quis asperiores laboriosam enim eius rerum.
+    </p>
+</div>
+
+<div class="section" id="p3">
+    <span class="name">Razvan Barosan</span>
+    <span class="border"></span>
+    <p> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ratione voluptates unde
+         quas pariatur labore earum tempora dolorum, sequi, culpa commodi at ducimus mollitia
+          quis asperiores laboriosam enim eius rerum.
+    </p>
+</div>
+
+
+</div>
