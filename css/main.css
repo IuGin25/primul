@@ -1,3 +1,114 @@
+body, html, div, h1{
+    padding: 0;
+    margin: 0;
+}
+
+.head{
+    background-color: rgb(228, 228, 228);
+    width: 100%;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
 .titlu{
-    color:aqua;
+    color:rgb(90, 17, 8);
+    position: relative;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    padding-top: 20px;
+}
+
+.menu{
+    background-color: bisque;
+    width: 100%;
+}
+
+.tabel_menu{
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 10px;
+}
+
+.text_menu:link, .text_menu:visited{
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color:black;
+}
+
+.about{
+    border: 2px solid cadetblue;
+    background-color: cadetblue;
+}
+
+.about:hover, .about:hover .text_menu {
+    border: 2px solid rgb(66, 76, 165);
+    background-color: rgb(66, 76, 165);
+    color: white;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+
+.home{
+    border: 2px solid cadetblue;
+    background-color: cadetblue;
+}
+
+.home:hover, .home:hover .text_menu {
+    border: 2px solid rgb(66, 76, 165);
+    background-color: rgb(66, 76, 165);
+    color: white;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+
+.shop{
+    border: 2px solid cadetblue;
+    background-color: cadetblue;
+}
+
+.shop:hover, .shop:hover .text_menu{
+    border: 2px solid rgb(66, 76, 165);
+    background-color: rgb(66, 76, 165);
+    color: white;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+
+.down{
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    color:rgb(228, 228, 228);
+    font-size: large;
+    font-family: monospace;
+    text-align: center;
+}
+
+.table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about_down{
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color:rgb(228, 228, 228);
+    font-size: large;
+    font-family: monospace;
+    border-spacing: 25px;
+}
+
+.disclaimer{
+    color: rgb(61, 14, 14);
+    font-size: xx-small;
+    font-style: italic;
 }
