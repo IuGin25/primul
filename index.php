@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="css/main.css" />
     </head>
     <body>
-        <img src="../primul/poze/dinozauri.jpg" class="dinozaur">
+        <img src="../primul/poze/wp3492725.jpg" class="dinozaur">
         <div class="container">
             <div class="menu">
                 <table class="tabel_menu">
@@ -25,7 +25,7 @@
                     <tr>
                         <td></td>
                         <td></td>
-                        <td class="logo_text"><a href = "#" class="logo_menu_text">titlu</a></td>
+                        <td class="logo_text"><a href = "https://www.youtube.com/watch?v=tAGnKpE4NCI&ab_channel=Metallica" class="logo_menu_text">titlu</a></td>
                         <td></td>
                         <td></td>
                     </tr>
