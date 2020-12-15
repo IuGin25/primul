@@ -114,16 +114,15 @@ body, html, div, h1{
 
 .logo_text:hover, .logo_text:hover .logo_menu_text{
     color: cornflowerblue;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
     transition: 0.3s;
 }
 
-.FaQ{
+.contact{
     
 }
 
-.FaQ:hover, .FaQ:hover .text_menu{
+.contact:hover, .contact:hover .text_menu{
     color: cornflowerblue;
     font-size: x-large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

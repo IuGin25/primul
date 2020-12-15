@@ -12,9 +12,9 @@
                     <tr>
                         <td class="about"><a href="index.php?p=about" class="text_menu">About</a></td>
                         <td class="home"><a href="index.php?p=home" class="text_menu">Home</a></td>
-                        <td rowspan=2><a href="http://localhost/primul/"><img src='poze/Screenshot_62.png' class="logo"/></a></td>
+                        <td rowspan=2><a href="http://localhost/primul/"><img src='poze/Screenshot_62.png' class="logo" onmouseover="titlu.style.color='cornflowerblue'" onmouseout="titlu.style.color = 'white'"/></a></td>
                         <td class="shop"><a href="index.php?p=shop" class="text_menu">Shop</a></td>
-                        <td class="FaQ"><a href="index.php?p=FAQ" class = "text_menu">FAQ</a></td>
+                        <td class="contact"><a href="index.php?p=contact" class = "text_menu">Contact</a></td>
                     </tr>
                     <tr>
                         <td></td>
@@ -26,7 +26,7 @@
                     <tr>
                         <td></td>
                         <td></td>
-                        <td class="logo_text"><a href = "http://localhost/primul/" class="logo_menu_text">Dizonaurii lu Gica</a></td>
+                        <td class="logo_text"><a href = "http://localhost/primul/" class="logo_menu_text" id="titlu" onmouseover="this.style.color ='cornflowerblue'" onmouseout="this.style.color ='white'">Dizonaurii lu Gica</a></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -51,8 +51,8 @@
                                 require("pagini/about.php");
                             break;
 
-                            case 'FAQ':
-                                require("pagini/FAQ.php");
+                            case 'contact':
+                                require("pagini/contact.php");
 
                         }
                     else

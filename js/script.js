@@ -1,1 +1,0 @@
-document.getElementsByClassName('logo').addEventListener('mouseover', function() {document.getElementsByClassName('logo_menu_text').style.color = 'cornflowerblue';});
