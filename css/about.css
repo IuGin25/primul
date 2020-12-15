@@ -7,7 +7,7 @@
 .team-section{
     overflow: hidden;
     text-align: center;
-    background-color: #ce0aff;
+    background-color: 2c3e50;
     padding: 150px;
 }
 
@@ -21,15 +21,15 @@
 .border{
     display:block;
     margin:auto;
-    width:160px;
+    width:600px;
     height:3px;
-    background: #7320fa;
+    background: #7f8c8d;
     margin-bottom: 120px;
 
 }
 
 .ps{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .ps a{
@@ -64,7 +64,7 @@
 }
 
 .section:target{
-    height: auto;
+    height: 500px;
 }
 
 .name{
