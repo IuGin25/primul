@@ -7,7 +7,7 @@
     </head>
     <body>
         <div class="container">
-            <div class="menu">
+            <div class="menu" id = "menu">
                 <table class="tabel_menu">
                     <tr>
                         <td class="about"><a href="index.php?p=about" class="text_menu">About</a></td>
