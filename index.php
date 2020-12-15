@@ -88,5 +88,6 @@
                 <p class="disclaimer">In case of injury, harm, fire, murders, infections, robots atack, death, fatal injury and Elena Luta we don't take responsability, in the 100000 pages of terms and servicies it is mentiond that you will deal whit it on your own, we will sue if you trie to pin it on us</p>
             </div>
         </div>
+        <script type="text/javascript" src="js/script.js" ></script>
     </body>
 </html>
