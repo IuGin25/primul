@@ -12,7 +12,7 @@ body, html, div, h1{
     float: top;
     padding-left:auto;
     padding-right:auto;
-    transition: 1s;
+    transition: 0.7s;
     
 }
 
@@ -90,7 +90,7 @@ body, html, div, h1{
     font-size: large;
     font-family: monospace;
     border-spacing: 25px;
-    height: 10000px;
+
 }
 
 .disclaimer{
@@ -100,7 +100,7 @@ body, html, div, h1{
 }
 
 .main{
-    height: 10000px;
+    height: 1000px;
 }
 
 .logo_menu_text{
