@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>AntiLampa</title>
+        <title>Ionut_e_BO$$</title>
         <link rel="stylesheet" href="css/main.css" />
         <link rel="stylesheet" href="css/about.css" />
         <link rel="stylesheet" href="css/home.css" />
