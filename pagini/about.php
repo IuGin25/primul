@@ -9,6 +9,7 @@
     <a href="#p4"><img src="poze/4481011c-4378-4b82-b4eb-2f40703eb0ce.png" alt=""></a>
     <a href="#p5"><img src="poze/monkas.png" alt=""></a>
 
+
  </div>
 
 <div class="section" id="p1">
@@ -52,14 +53,23 @@
 </div>
 
 <div class="section" id="p5">
-    <span class="name">Stefan_Tech</span>
+    <span class="name">Stefan_Ghe</span>
     <span class="border"></span>
     <p> 
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ratione voluptates unde
-         quas pariatur labore earum tempora dolorum, sequi, culpa commodi at ducimus mollitia
-          quis asperiores laboriosam enim eius rerum.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, modi. 
+            Iste voluptatem iure earum debitis, eius, nihil totam perspiciatis, consequuntur 
+            consequatur eum perferendis? Sapiente consequatur deleniti necessitatibus nulla qui corporis?
     </p>
 </div>
 
+<div class="section" >
+    <span class="name">We are corditi</span>
+    <span class="border"></span>
+    <p> 
+            Noi suntem corditii corditiilor. Ne futem pana in zori si suntem multi. Pula ne place mult iar ea pe noi.
+         Mana intinsa care nu spune o poveste nu primeste de mancare. Intreaga noastra viata a fost construita in jurul acestui site iar el pe noi. 
+         Suntem ca planetele, orbitam unul pe langa si impreuna cu celalalt.
+    </p>
+</div>
 
 </div>
