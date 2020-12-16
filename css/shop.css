@@ -1,0 +1,62 @@
+.main1{
+    margin-top: 100px;
+}
+.cards{
+    width: 15%;
+    background-color: turquoise;
+    border: 5px solid black;
+    border-radius: 25px;
+    margin: 40px;
+    display: inline-block;
+}
+
+.cards:hover{
+    box-shadow: 10px 10px 10px black;
+    transition: 1s;
+}
+
+.image img{
+    width: 100%;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    height: 30%;
+}
+
+.image1 img{
+    width: 100%;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    height: 30%;
+}
+
+.image2 img{
+    width: 100%;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    height: 30%;
+}
+.title{
+    text-align: center;
+}
+
+.des{
+    text-align: center;
+    padding: 4px;
+}
+
+button{
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: red;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 100px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
