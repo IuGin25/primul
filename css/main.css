@@ -44,6 +44,14 @@ body, html, div, h1{
     transition: 0.3s;
 }
 
+.signup:hover, .signup:hover .text_menu {
+    color: cornflowerblue;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
 .home{
     font-family: Candara;
 }

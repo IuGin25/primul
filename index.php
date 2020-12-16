@@ -4,6 +4,8 @@
         <link rel="stylesheet" href="css/main.css" />
         <link rel="stylesheet" href="css/about.css" />
         <link rel="stylesheet" href="css/home.css" />
+        <link rel="stylesheet" href="css/signup.css" />
+        <link rel="stylesheet" href="css/shop.css" />
     </head>
     <body>
         <div class="container">
@@ -15,6 +17,7 @@
                         <td rowspan=2><a href="http://localhost/primul/"><img src='poze/Screenshot_62.png' class="logo" onmouseover="titlu.style.color='cornflowerblue'" onmouseout="titlu.style.color = 'white'"/></a></td>
                         <td class="shop"><a href="index.php?p=shop" class="text_menu">Shop</a></td>
                         <td class="contact"><a href="index.php?p=contact" class = "text_menu">Contact</a></td>
+                        <td class="signup"><a href="index.php?p=signup" class = "text_menu">Signup</a></td>
                     </tr>
                     <tr>
                         <td></td>
@@ -55,6 +58,11 @@
 
                             case 'contact':
                                 require("pagini/contact.php");
+
+                            break;
+
+                            case 'signup':
+                                require("pagini/signup.php");
 
                         }
                     else
