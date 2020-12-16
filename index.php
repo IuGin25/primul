@@ -35,7 +35,8 @@
 
             <div class="main">
                 
-                <!-- Aicia nu faceti nimic va jucati cu restul ca asta e important si vine facut cu php (specificat special pt Ionut si Jeff hackerul si Maria curva. Futu-ti mortii ma-tii Jeff daca citesti)--> 
+                <!-- Aicia nu faceti nimic va jucati cu restul ca asta e important si vine 
+                facut cu php (specificat special pt Ionut si Jeff hackerul si Maria curva. Futu-ti mortii ma-tii Jeff daca citesti)(Sa ma pis pe voi de neexperimentati)--> 
                 <?php 
                     if(isset($_GET['p']))
                         switch ($_GET['p']){
@@ -49,6 +50,7 @@
 
                             case 'about':
                                 require("pagini/about.php");
+                                
                             break;
 
                             case 'contact':

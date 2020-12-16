@@ -5,10 +5,11 @@
 }
 
 .team-section{
-    overflow: hidden;
+    
     text-align: center;
     background-color: 2c3e50;
     padding: 150px;
+    overflow: hidden;
 }
 
 .team-section h1{
