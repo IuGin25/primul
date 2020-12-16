@@ -12,35 +12,35 @@ if(isset($_POST["submit"])) {
     
     if(emptyInputsSignup($username, $email, $pwd, $pwdrepeat) !== false) {
 
-        header("location: ../index.php?p=signup?error=emptyinput");
+        header("location: ../index.php?p=signup&error=emptyinput");
 
         exit();
     }
 
     if(invalidUid($username) !== false) {
 
-        header("location: ../index.php?p=signup?error=invaliduid");
+        header("location: ../index.php?p=signup&error=invaliduid");
 
         exit();
     }
 
     if(invalidEmail($email) !== false) {
 
-        header("location: ../index.php?p=signup?error=invalidemail");
+        header("location: ../index.php?p=signup&error=invalidemail");
 
         exit();
     }
 
     if(pwdMatch($pwd, $pwdrepeat) !== false) {
 
-        header("location: ../index.php?p=signup?error=pwddontmatch");
+        header("location: ../index.php?p=signup&error=pwddontmatch");
 
         exit();
     }
 
     if(uidExists($conn, $username, $email) !== false) {
 
-        header("location: ../index.php?p=signup?error=usernametaken");
+        header("location: ../index.php?p=signup&error=usernametaken");
 
         exit();
     }

@@ -72,7 +72,7 @@ function uidExists($conn, $username, $email) {
 
     if(!mysqli_stmt_prepare($stmt, $sql)) {
 
-        header("location: ../signup.php?error=stmtfailed");
+        header("location: ../index.php?p=signup&error=stmtfailed");
 
         exit();
     }
@@ -107,7 +107,7 @@ function createUser($conn, $username, $email, $pwd) {
 
     if(!mysqli_stmt_prepare($stmt, $sql)) {
 
-        header("location: ../index.php?p=signup?error=stmtfailed");
+        header("location: ../index.php?p=signup&error=stmtfailed");
 
         exit();
     }
@@ -120,7 +120,7 @@ function createUser($conn, $username, $email, $pwd) {
 
     mysqli_stmt_close($stmt);
 
-    header("location: ../index.php?p=signup?error=none");
+    header("location: ../index.php?p=signup&error=none");
 
     exit();
  
