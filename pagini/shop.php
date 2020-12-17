@@ -166,5 +166,5 @@
 
 <!-- Incerc sa bag muzica pe shop acum sa nu va mirati-->
 <div class="music">
-<iframe width="250" height="250" src="ShopMusic.mp3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="0" height="0" src="ShopMusic.mp3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
