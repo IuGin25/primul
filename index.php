@@ -23,10 +23,11 @@
                 <div class="links">
                     <ul class="navigator">
                         <li class="logo" style="float:left"><a href="#"><img src="#" alt="logo"/></a></li>
+                        <li><a href="#">Home</a></li>
                         <li><a href="#">Cart</a></li>
                         <li><a href="#">Contact</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Shop</a></li>
+                        <li><a href="index.php?p=about">About</a></li>
+                        <li><a href="index.php?p=shop">Shop</a></li>
                     </ul>
                 </div>
             </header>
