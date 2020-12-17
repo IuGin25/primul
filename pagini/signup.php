@@ -31,10 +31,10 @@ if(isset($_GET["error"])) {
     }
     else if($_GET["error"] == "invalidemail") {
 
-        echo "<p>Alege dracu un emails bun!</p>";
+        echo "<p>Alege dracu un email bun!</p>";
 
     }
-    else if($_GET["error"] == "passwordsdontmatch") {
+    else if($_GET["error"] == "pwddontmatch") {
 
         echo "<p>Ai scirs parola gresit nebunule!</p>";
 
@@ -46,12 +46,12 @@ if(isset($_GET["error"])) {
     }
     else if($_GET["error"] == "usernametaken") {
 
-        echo "<p>Ti-a furat numele cinva!</p>";
+        echo "<p>Ti-a furat cineva numele sau emailu!</p>";
 
     }
     else if($_GET["error"] == "none") {
 
-        echo "<p>Ti-ai creat cont pe cel mai bun site din lume!</p>";
+        echo "<p>Ti-ai creat cont pe cel mai bun site din lume! Acum dute si dai log in!</p>";
 
     }
 

@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <html>
     <head>
         <title>Ionut_e_BO$$</title>
@@ -13,9 +17,22 @@
             <div class="account_bar">
                 <div class="text_right">
                     <p class="text_account_bar">
-                        <a href="#" id="login_link">Log in </a>
-                        &#149;
-                        <a href="#" id="register_link">Create Accont </a>
+                        <?php
+
+                        if(isset($_SESSION["useruid"])) {
+
+                            echo "<a href='index.php?p=profile' >Profile Page </a>";
+                            echo "&#149 ";
+                            echo "<a href='includes/logout.inc.php' >Log Out </a>";
+                        }
+                        else {
+
+                            echo "<a href='index.php?p=login'>Log in </a>";
+                            echo "&#149 ";
+                            echo "<a href='index.php?p=signup'>Create Account </a>";
+                        }
+
+                        ?>
                     </p>
                 </div>
             </div>
@@ -23,7 +40,7 @@
                 <div class="links">
                     <ul class="navigator">
                         <li class="logo" style="float:left"><a href="#"><img src="#" alt="logo"/></a></li>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="index.php?p=home">Home</a></li>
                         <li><a href="#">Cart</a></li>
                         <li><a href="#">Contact</a></li>
                         <li><a href="index.php?p=about">About</a></li>
@@ -60,6 +77,12 @@
 
                             case 'signup':
                                 require("pagini/signup.php");
+
+                            break;
+
+                            case 'login':
+                                require("pagini/login.php");
+                                
 
                         }
                     else

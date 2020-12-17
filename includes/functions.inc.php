@@ -123,5 +123,55 @@ function createUser($conn, $username, $email, $pwd) {
     header("location: ../index.php?p=signup&error=none");
 
     exit();
- 
+
+}
+
+function emptyInputsLogin($username, $pwd) {
+
+    $result;
+
+    if(empty($username) || empty($pwd) ) {  
+
+        $result = true;
+
+    }
+    else {
+        $result = false;
+    }
+    return $result;
+
+}
+
+function loginUser($conn, $username, $pwd) {
+
+    $uidExists = uidExists($conn, $username, $username);
+
+    if($uidExists === false) {
+
+        header("location: ../index.php?p=login&error=wronglogin");
+
+        exit();
+    }
+
+    $pwdHashed = $uidExists["usersPwd"];
+
+    $checkPwd = password_verify($pwd, $pwdHashed);
+
+    if($checkPwd === false) {
+
+        header("location: ../index.php?p=login&error=wronglogin");
+
+        exit();
+    }
+    else if($checkPwd === true) {
+
+        session_start();
+
+        $_SESSION["userid"] =  $uidExists["usersId"];
+        $_SESSION["useruid"] =  $uidExists["usersUid"];
+
+        header("location: ../index.php?p=home");
+
+        exit();
+    }
 }
