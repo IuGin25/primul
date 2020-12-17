@@ -1,133 +1,170 @@
-<div class="main">
-    <div class="main1">
-<div class="cards">
-<div class="image">
-<img src="poze/contact-background.png">
-</div>
-<div class="title">
-<h1>Title Name</h1>
-</div>
-<div class="des">
-<p>Write your description here...</p>
-<button>Read More...</button>
-</div>
-</div>
-
-    <!--cards owo-->
-    <div class="cards">
+<div class="card1">
 <div class="image1">
-<img src="poze/IonutCap-de-prost.jpg">
+<img src="poze/bronz.jpg">
 </div>
 <div class="title">
-<h1>Title Name</h1>
+<h1>Ichthyosaurus</h1>
 </div>
 <div class="des">
-<p>Write your description here...</p>
-<button>Read More...</button>
+<p>Bronz</p>
+<button>Buy now!</button>
 </div>
 </div>
 
     <!--cards owo-->
-<div class="cards">
+    <div class="card2">
 <div class="image2">
-<img src="poze/furry1.png">
+<img src="poze/bronz1.jpg">
 </div>
 <div class="title">
-<h1>Title Name</h1>
+<h1>Mosasaurus</h1>
 </div>
 <div class="des">
-<p>Write your description here...</p>
-<button>Read More...</button>
+<p>Bronz</p>
+<button>Buy now!</button>
+</div>
+</div>
+
+    <!--cards owo-->
+<div class="card3">
+<div class="image3">
+<img src="poze/bronz(2).jpg">
+</div>
+<div class="title">
+<h1>Dragon de la Lidl</h1>
+</div>
+<div class="des">
+<p>Bronz</p>
+<button>Buy now!</button>
 </div>
 </div>
 <!--cards owo-->
-<div class="cards">
-<div class="image1">
-<img src="poze/IonutCap-de-prost.jpg">
+<div class="card4">
+<div class="image4">
+<img src="poze/silver.jpg">
 </div>
 <div class="title">
-<h1>Title Name</h1>
+<h1>Ankilosaurus</h1>
 </div>
 <div class="des">
-<p>Write your description here...</p>
-<button>Read More...</button>
+<p>Silver</p>
+<button>Buy Now!</button>
 </div>
 </div>
 
     <!--cards owo-->
-<div class="cards">
-<div class="image2">
-<img src="poze/furry1.png">
+<div class="card5">
+<div class="image5">
+<img src="poze/silver1.jpg">
 </div>
 <div class="title">
-<h1>Title Name</h1>
+<h1>Iguanodon</h1>
 </div>
 <div class="des">
-<p>Write your description here...</p>
-<button>Read More...</button>
-</div>
+<p>Silver</p>
+<button>Buy Now!</button>
 </div>
 </div>
 
 <!--cards owo-->
-<div class="cards">
-<div class="image1">
-<img src="poze/IonutCap-de-prost.jpg">
+<div class="card6">
+<div class="image6">
+<img src="poze/silver2.png">
 </div>
 <div class="title">
-<h1>Title Name</h1>
+<h1>Gallimimus</h1>
 </div>
 <div class="des">
-<p>Write your description here...</p>
-<button>Read More...</button>
+<p>Silver</p>
+<button>Buy Now!</button>
 </div>
 </div>
 
     <!--cards owo-->
-<div class="cards">
-<div class="image2">
-<img src="poze/furry1.png">
+<div class="card7">
+<div class="image7">
+<img src="poze/haur.jpg">
 </div>
 <div class="title">
-<h1>Title Name</h1>
+<h1>Cuelophysis</h1>
 </div>
 <div class="des">
-<p>Write your description here...</p>
-<button>Read More...</button>
+<p>Haur ba</p>
+<button>Buy NOW!</button>
 </div>
 </div>
 <!--cards owo-->
-<div class="cards">
-<div class="image1">
-<img src="poze/IonutCap-de-prost.jpg">
+<div class="card8">
+<div class="image8">
+<img src="poze/haur1.jpg">
 </div>
 <div class="title">
-<h1>Title Name</h1>
+<h1>Diplodocus</h1>
 </div>
 <div class="des">
-<p>Write your description here...</p>
-<button>Read More...</button>
+<p>Haur ba</p>
+<button>Buy NOW!</button>
 </div>
 </div>
 
     <!--cards owo-->
-<div class="cards">
-<div class="image2">
-<img src="poze/furry1.png">
+<div class="card9">
+<div class="image9">
+<img src="poze/haur2.png">
 </div>
 <div class="title">
-<h1>Title Name</h1>
+<h1>Silvisaurus</h1>
 </div>
 <div class="des">
-<p>Write your description here...</p>
-<button>Read More...</button>
+<p>Haur ba</p>
+<button>Buy NOW!</button>
 </div>
 </div>
+
+<!--cards owo-->
+<div class="card10">
+<div class="image10">
+<img src="poze/jmeker.jpg">
 </div>
+<div class="title1">
+<h1>Stegosaurus</h1>
+</div>
+<div class="des1">
+<p>Jmeker BA!!</p>
+<button>BUY NOW!</button>
+</div>
+</div>
+
+<!--cards owo-->
+<div class="card11">
+<div class="image11">
+<img src="poze/jmeker1.jpg">
+</div>
+<div class="title1">
+<h1>Pterodactyl</h1>
+</div>
+<div class="des1">
+<p>Jmeker BA!!</p>
+<button>BUY NOW!</button>
+</div>
+</div>
+
+<!--cards owo-->
+<div class="card12">
+<div class="image12">
+<img src="poze/jmeker2.jpg">
+</div>
+<div class="title1">
+<h1>Brontosaurus</h1>
+</div>
+<div class="des1">
+<p>Jmeker BA!!</p>
+<button>BUY NOW!</button>
+</div>
+</div>
+
 
 <!-- Incerc sa bag muzica pe shop acum sa nu va mirati-->
 <div class="music">
-<audio controls autoplay loop>
-<source src="muzica/Postal 2 Map Music.mp3" type="audio/ogg">
-</audio>
+<iframe width="250" height="250" src="Postal 2 Map Music.mp3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
