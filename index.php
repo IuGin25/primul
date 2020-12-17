@@ -5,6 +5,7 @@
 <html>
     <head>
         <title>Ionut_e_BO$$</title>
+        <link rel="stylesheet" href="css/profile.css" />
         <link rel="stylesheet" href="css/main.css" />
         <link rel="stylesheet" href="css/about.css" />
         <link rel="stylesheet" href="css/home.css" />
@@ -82,6 +83,11 @@
 
                             case 'login':
                                 require("pagini/login.php");
+
+                            break;
+
+                            case 'profile':
+                                require("pagini/profile.php");
                                 
 
                         }
