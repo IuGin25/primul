@@ -1,77 +1,66 @@
-body, html, div, h1{
-    padding: 0;
+*{
     margin: 0;
-    scroll-behavior: smooth;
+    padding: 0;
 }
 
-.menu{
+ @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Varela&display=swap');
+
+.account_bar{
     width: 100%;
-    top: 0;
-    position: fixed;
-    display: block;
-    float: top;
-    padding-left:auto;
-    padding-right:auto;
-    transition: 0.4s;
-    
+    height: 20px;
+    background-color: black;
+    justify-content: right;
+    display: flex;
+    align-content: flex-end;
 }
 
-.tabel_menu{
-    border-spacing: 10px;
-    top: 0;
-    z-index: -99;
-    margin-left: auto;
-    margin-right: auto;
+.text_right{
+    margin-right: 10%;
 }
 
-.text_menu:link, .text_menu:visited{
-    font-size: x-large;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.text_account_bar, .text_account_bar a{
     text-decoration: none;
     color: white;
-    
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: smaller;
+    font-weight: bold;
 }
 
-.about{
-    
+.text_account_bar a:hover{
+    text-decoration: underline white;
 }
 
-.about:hover, .about:hover .text_menu {
-    color: cornflowerblue;
-    font-size: x-large;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.main{
+    width: 100%;
+    height: 5000px;
+    background-color: tomato;
+}
+
+.navigator{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: whitesmoke;
+    width: 100%;
     text-decoration: none;
-    transition: 0.3s;
+    font-size: 1em;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
 }
 
-.signup:hover, .signup:hover .text_menu {
-    color: cornflowerblue;
-    font-size: x-large;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.navigator li{
+    float: right;
+}
+
+.navigator a {
+    display: block;
+    text-align: center;
+    padding: 20px 30px;
     text-decoration: none;
-    transition: 0.3s;
-}
-
-.home{
-    font-family: Candara;
-}
-
-.home:hover, .home:hover .text_menu {
-    color: cornflowerblue;
-    font-size: x-large;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.shop{
-
-}
-
-.shop:hover, .shop:hover .text_menu{
-    color: cornflowerblue;
-    font-size: x-large;
-    text-decoration: none;
-    transition: 0.3s;
+    color: black;
 }
 
 .down{
@@ -109,36 +98,6 @@ body, html, div, h1{
 
 .main{
     height: 1000px;
-}
-
-.logo_menu_text{
-    text-align: center;
-    text-decoration: none;
-    color: white;
-}
-
-.logo_text{
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    transition: 0.3s;
-}
-
-.logo_text:hover, .logo_text:hover .logo_menu_text{
-    color: cornflowerblue;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.contact{
-    
-}
-
-.contact:hover, .contact:hover .text_menu{
-    color: cornflowerblue;
-    font-size: x-large;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-decoration: none;
-    transition: 0.3s;
 }
 
 .dinozaur{
