@@ -14,3 +14,7 @@ E 6.03 dimineata, ora 16.12.2020 si eu inca incerc sa ii gases o rezolvare la pr
 <3 for dedication
 
 17.12.2020, update de ultima ora, Bogdan a stricat site-ul dupa ce a venit cu o noua idee de meniu. Noi inca    
+
+20.12.2020, update din studioul nostru. Am lucrat vreo 4 ore la shop sa-mi bag pula si imi vine sa mor ca nu pot sa fac TEXT CURCUBEU FUTU-TI MORTII MA-TI. Cam asta e.
+
+XOXO - Vlad

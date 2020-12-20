@@ -12,6 +12,76 @@
     transition: 1s;
 }
 
+.card2{
+    width: 15%;
+    background-color:  #C0C0C0;
+    border: 5px solid black;
+    border-radius: 25px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.card2:hover{
+    box-shadow: 10px 10px 10px  #C0C0C0;
+    transition: 1s;
+}
+
+.card3{
+    width: 15%;
+    background-color:  #FFD700;
+    border: 5px solid black;
+    border-radius: 25px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.card3:hover{
+    box-shadow: 10px 10px 10px  #FFD700;
+    transition: 1s;
+}
+
+.card4{
+    width: 15%;
+    background-image: url("../poze/jmeker-background2.jpg");
+    border: 5px solid black;
+    border-radius: 25px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.card4:hover{
+    box-shadow: 10px 10px 10px greenyellow;
+    transition: 1s;
+}
+
+.card5{
+    width: 15%;
+    background-image: url("../poze/jmeker-background.jpg");
+    border: 5px solid black;
+    border-radius: 25px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.card5:hover{
+    box-shadow: 10px 10px 10px rgb(210, 29, 255) ;
+    transition: 1s;
+}
+
+.card6{
+    width: 15%;
+    background-image: url("../poze/bombardier-background.jpg");
+    border: 5px solid black;
+    border-radius: 25px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.card6:hover{
+    box-shadow: 10px 10px 10px red ;
+    transition: 1s;
+}
+
 .image1 img{
     width: 100%;
     border-top-right-radius: 18px;
@@ -20,19 +90,6 @@
     height: 30%;
 }
 
-.card2{
-    width: 15%;
-    background-color: #cd7f32;
-    border: 5px solid black;
-    border-radius: 25px;
-    margin: 5px;
-    display: inline-block;
-}
-
-.card2:hover{
-    box-shadow: 10px 10px 10px #cd7f32;
-    transition: 1s;
-}
 
 .image2 img{
     width: 100%;
@@ -41,19 +98,6 @@
     height: 30%;
 }
 
-.card3{
-    width: 15%;
-    background-color: #cd7f32;
-    border: 5px solid black;
-    border-radius: 25px;
-    margin: 5px;
-    display: inline-block;
-}
-
-.card3:hover{
-    box-shadow: 10px 10px 10px #cd7f32;
-    transition: 1s;
-}
 
 .image3 img{
     width: 100%;
@@ -62,19 +106,6 @@
     height: 30%;
 }
 
-.card4{
-    width: 15%;
-    background-color: #C0C0C0;
-    border: 5px solid black;
-    border-radius: 25px;
-    margin: 5px;
-    display: inline-block;
-}
-
-.card4:hover{
-    box-shadow: 10px 10px 10px #C0C0C0;
-    transition: 1s;
-}
 
 .image4 img{
     width: 100%;
@@ -83,19 +114,6 @@
     height: 30%;
 }
 
-.card5{
-    width: 15%;
-    background-color: #C0C0C0;
-    border: 5px solid black;
-    border-radius: 25px;
-    margin: 5px;
-    display: inline-block;
-}
-
-.card5:hover{
-    box-shadow: 10px 10px 10px #C0C0C0;
-    transition: 1s;
-}
 
 .image5 img{
     width: 100%;
@@ -104,19 +122,6 @@
     height: 30%;
 }
 
-.card6{
-    width: 15%;
-    background-color: #C0C0C0;
-    border: 5px solid black;
-    border-radius: 25px;
-    margin: 5px;
-    display: inline-block;
-}
-
-.card6:hover{
-    box-shadow: 10px 10px 10px #C0C0C0;
-    transition: 1s;
-}
 
 .image6 img{
     width: 100%;
@@ -125,19 +130,6 @@
     height: 30%;
 }
 
-.card7{
-    width: 15%;
-    background-color: #FFD700;
-    border: 5px solid black;
-    border-radius: 25px;
-    margin: 5px;
-    display: inline-block;
-}
-
-.card7:hover{
-    box-shadow: 10px 10px 10px #FFD700;
-    transition: 1s;
-}
 
 .image7 img{
     width: 100%;
@@ -146,19 +138,6 @@
     height: 30%;
 }
 
-.card8{
-    width: 15%;
-    background-color: #FFD700;
-    border: 5px solid black;
-    border-radius: 25px;
-    margin: 5px;
-    display: inline-block;
-}
-
-.card8:hover{
-    box-shadow: 10px 10px 10px #FFD700;
-    transition: 1s;
-}
 
 .image8 img{
     width: 100%;
@@ -167,19 +146,6 @@
     height: 30%;
 }
 
-.card9{
-    width: 15%;
-    background-color: #FFD700;
-    border: 5px solid black;
-    border-radius: 25px;
-    margin: 5px;
-    display: inline-block;
-}
-
-.card9:hover{
-    box-shadow: 10px 10px 10px #FFD700;
-    transition: 1s;
-}
 
 .image9 img{
     width: 100%;
@@ -188,19 +154,6 @@
     height: 30%;
 }
 
-.card10{
-    width: 15%;
-    background-image: url("../poze/jmeker-background2.jpg");
-    border: 5px solid black;
-    border-radius: 25px;
-    margin: 5px;
-    display: inline-block;
-}
-
-.card10:hover{
-    box-shadow: 10px 10px 10px greenyellow;
-    transition: 1s;
-}
 
 .image10 img{
     width: 100%;
@@ -209,19 +162,6 @@
     height: 30%;
 }
 
-.card11{
-    width: 15%;
-    background-image: url("../poze/jmeker-background2.jpg");
-    border: 5px solid black;
-    border-radius: 25px;
-    margin: 5px;
-    display: inline-block;
-}
-
-.card11:hover{
-    box-shadow: 10px 10px 10px greenyellow;
-    transition: 1s;
-}
 
 .image11 img{
     width: 100%;
@@ -230,19 +170,6 @@
     height: 30%;
 }
 
-.card12{
-    width: 15%;
-    background-image: url("../poze/jmeker-background2.jpg");
-    border: 5px solid black;
-    border-radius: 25px;
-    margin: 5px;
-    display: inline-block;
-}
-
-.card12:hover{
-    box-shadow: 10px 10px 10px greenyellow;
-    transition: 1s;
-}
 
 .image12 img{
     width: 100%;
