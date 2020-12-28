@@ -43,7 +43,7 @@
                         <li class="logo" style="float:left"><a href="#"><img src="#" alt="logo"/></a></li>
                         <li><a href="index.php?p=home">Home</a></li>
                         <li><a href="#">Cart</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="index.php?p=contact">Contact</a></li>
                         <li><a href="index.php?p=about">About</a></li>
                         <li><a href="index.php?p=shop">Shop</a></li>
                     </ul>
